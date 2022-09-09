@@ -1,0 +1,71 @@
+:root {
+  /* ==== Primary ==== */
+  --darkCyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+
+  /* ==== Neutral ==== */
+
+  --veryDarkBlue: hsl(212, 21%, 14%);
+  --darkGrayishBlue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+
+  /* ==== Typography ==== */
+  --fontSize: 14px;
+}
+body {
+  font-family: "Fraunces", serif;
+  background-color: var(--Cream);
+}
+main {
+  max-width: 350px;
+  background-color: var(--white);
+  border-radius: 0.5em;
+}
+.content {
+  padding: 1em;
+}
+.img-perfumebottle{
+  height: 245px;
+  background-image: url("./images/image-product-mobile.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  color: var(--darkGrayishBlue);
+  line-height: 1em;
+}
+p:first-child{
+  letter-spacing: 7px;
+}
+button {
+  width: 100%;
+  padding: 1em;
+  background-color: var(--darkCyan);
+  color: var(--white);
+  border: 0;
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+span{
+  font-weight: 700;
+}
+span::before{
+  content: url("./images/icon-cart.svg");
+  padding: 1em;
+}
+
+/* ==== Attribution ==== */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
