@@ -12,6 +12,14 @@
   /* ==== Typography ==== */
   --fontSize: 14px;
 }
+/* ==== Utilities ==== */
+.pd-1{
+  padding: 1em;
+}
+.text-cyan{
+  color: var(--darkCyan);
+}
+
 body {
   font-family: "Fraunces", serif;
   background-color: var(--Cream);
@@ -20,9 +28,6 @@ main {
   max-width: 350px;
   background-color: var(--white);
   border-radius: 0.5em;
-}
-.content {
-  padding: 1em;
 }
 .img-perfumebottle{
   height: 245px;
