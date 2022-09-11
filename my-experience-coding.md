@@ -8,4 +8,16 @@
   1. utilities are my friend to time saving. Have a general file of them ready for inclusion in projects to be manipulated as required.
 
   This is where bootstrap and other framework shines.
+
+11-09-2022: 
+  1. I coded to match the desktop view using - 
+  
+```
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+```
+  to align the content in the center of the screen instead of the margin: auto.
   
