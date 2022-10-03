@@ -1,6 +1,7 @@
 :root {
   /* ==== Primary ==== */
-  --darkCyan: hsl(158, 36%, 37%);
+  --darkCyan-normal: hsl(158, 36%, 45%);
+  --darkCyan-hover: hsl(158, 36%, 37%);
   --Cream: hsl(30, 38%, 92%);
 
   /* ==== Neutral ==== */
@@ -17,7 +18,7 @@
   padding: 1em;
 }
 .text-cyan{
-  color: var(--darkCyan);
+  color: var(--darkCyan-normal);
 }
 
 body {
@@ -79,14 +80,17 @@ p:first-child{
 button {
   width: 100%;
   padding: 1em;
-  background-color: var(--darkCyan);
+  background-color: var(--darkCyan-normal);
   color: var(--white);
   border: 0;
   border-radius: 0.5em;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+}
+button:hover{
+  background-color: var(--darkCyan-hover);
+  cursor: pointer;
 }
 span{
   font-weight: 700;
